@@ -1,2 +1,16 @@
 # IntelliJ project files
 .idea/
+
+# direnv files
+.envrc
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# Lambda build files
+build/
+
+# Terragrunt
+.terragrunt-cache
